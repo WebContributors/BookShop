@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    margin: 2px;
+}
+.title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.list-container {
+    display: grid;
+}
+input[type="text"] {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 40px;
+    height: 40px;
+    border-color: transparent;
+}
+input[type="text"]:focus {
+    outline-color: transparent;
+}
+.item {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-left: 5px solid grey;
+}
+button {
+    display: inline;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: steelblue;
+    border-color: transparent;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: purple;
+}
+button:active {
+    background-color: magenta;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding-right: 40px;
+}
